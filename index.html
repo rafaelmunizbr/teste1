@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <head X-UA-Compatible: requiresActiveX=true>
+    <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Aplicativo Lectro</title>
@@ -27,7 +27,7 @@
         <div data-role="page" id="page" data-theme="d">
             <!-- header Starts -->
             <div data-role="header" data-theme="f" class="header">
-                <h1><a href="index.html" rel="external"><img src="images/logo.png" width="140" height="43" alt=""/></a></h1>
+                <h1><a href="index.html"><img src="images/logo.png" width="140" height="43" alt=""/></a></h1>
                 <a href="#left-panel" data-shadow="false" ><i class="fa fa-indent fa-2x"></i></a>
                 <a href="#right-panel" data-shadow="false" ><i class="fa fa-bars fa-2x"></i></a>
             </div>
@@ -45,55 +45,33 @@
                 <!-- Welcome Text Starts -->
                 <div class="welcome-text">
                     <h1><span class="normal">Bem vindo a </span>Lectro</span></h1>
-                    <p>A mais de cinco Anos no mercado, hoje conta com duas lojas físicas em São Paulo, na Rua Aurora e Rua Dos Andradas. Além de uma grande oferta na linha Pcs, ainda oferece os mais diversos tipos de acessórios, desde mouses até suprimentos para redes sem fio. </p>
+                    <p>A mais de cinco Anos no mercado, hoje conta com duas lojas físicas em São Paulo, na Rua Aurora e Rua Dos Andradas. Além de uma grande oferta na linha Pcs, ainda oferece os mais diversos tipos de acessórios, desde mouses até suprimentos para redes sem fio.</p>
                 </div>
                 <!-- Welcome Text Ends -->
                 <hr>
                 <!-- Text with Pictures Starts -->
-                <div class="index-pic-text"><span class="ui-block-a"><img src="images/lectroloja.jpg" style="max-width:100%"></span>
+                <div class="index-pic-text">
                     <div class="ui-grid-a ui-responsive">
                         <div class="ui-block-a">
-                          <h1 class="icon-heading"><span class="normal">Porque escolher a </span>Letro<span class="normal">?</span></h1>
+                            <h1 class="icon-heading"><span class="normal">Porque escolher a</span><span class="normal"></span>&nbsp;Lectro</h1>
+                            <img src="images/lectroloja.jpg" style="max-width:100%">
                             <p>Conheça um pouco mais de nossa linha de   produtos e serviços e tenha a  garantia de estar fazendo negócio com   uma empresa séria e que lhe dará  um atendimento exemplar seja em nosso   site ou em nossas lojas físicas.<br>
 Nosso compromisso pode ser traduzido por liderança em tecnologia,    trabalho com produtos de excelente qualidade e confiabilidade dos    melhores fabricantes do mercado.</p>
-                      <hr>
-                        <h1 class="icon-heading"><span class="normal">Nosso </span>Atendimento</h1>
-                          <a href="http://lectro.com.br/chat" target="_blank"><img src="images/pic2.jpg" style="max-width:100%"></a>
-                          <p><strong>Horario de Atendimento:</strong></p>
-                            <p>09:00h as 17:00h de Seg. a Sex.</p>
+                        </div>
+                        <div class="ui-block-b">
+                            <h1 class="icon-heading"><span class="normal">Nosso</span> Atendimento</h1>
+                            <img src="images/pic2.jpg" usemap="#Map" style="max-width:100%">
+                            <map name="Map">
+                              <area shape="rect" coords="5,5,299,184" href="http://lectro.com.br/chat" target="_blank">
+                            </map>
+                            
                       </div>
-                  </div>
-                    <!-- /grid-a -->
-              </div>
-                <!-- Text with Pictures Ends -->
-                <!--<hr>-->
-                <hr>
-                <!-- Our Skills Starts -->
-                <!--<div>
-                    <div class="view-more-icon"><a href="about-us.html" rel="external"><img src="images/icons/detail-icon.png"></a></div>
-                    <h1 class="icon-heading"><span class="normal">OUR </span>SKILLS</h1>
-                    <div id="our-skills" class="owl-carousel">
-                        <div class="item">
-                            <div id="donutchart1" data-percent="90"></div>
-                        </div>
-                        <div class="item">
-                            <div id="donutchart2" data-percent="80"></div>
-                        </div>
-                        <div class="item">
-                            <div id="donutchart3" data-percent="70"></div>
-                        </div>
-                        <div class="item">
-                            <div id="donutchart4" data-percent="60"></div>
-                        </div>
-                        <div class="item">
-                            <div id="donutchart5" data-percent="50"></div>
-                        </div>
-                        <div class="item">
-                            <div id="donutchart6" data-percent="40"></div>
-                        </div>
                     </div>
-                </div>-->
-                <!-- Our Skills Ends --><!-- Photo Gallery Starts -->
+                    <!-- /grid-a -->
+                </div>
+                <!-- Text with Pictures Ends -->
+                <hr>
+                <!-- Our Skills Starts --><!-- Our Skills Ends --><!-- Photo Gallery Starts -->
                 <div>
                     <div class="view-more-icon"><a href="photo-gallery.html" rel="external"><img src="images/icons/detail-icon.png"></a></div>
                     <h1 class="icon-heading">Produtos</h1>
@@ -113,21 +91,10 @@ Nosso compromisso pode ser traduzido por liderança em tecnologia,    trabalho c
                     </div>
                 </div>
                 <!-- Photo Gallery Ends -->
-                <!--<hr>-->
-                <!-- Testimonials Starts -->
-               <!-- <div>
-                    <div class="view-more-icon"><a href="about-us.html" rel="external"><img src="images/icons/detail-icon.png"></a></div>
-                    <h1 class="icon-heading">Comentários de Clientes</h1>
-                    <div id="testimonials" class="owl-carousel">
-                        <div class="item">Otima loja. Bem atualizada com bons preços e atendimento nota 10. Recomendo<br><strong>Everaldo Siqueira Veiga, Fotógrafo</strong></div>
-                        <div class="item">Aliquam tincidunt mauris eu risus. Vestibulum auctor dapibus neque.<br><strong>John Doe, Graphic Designer</strong></div>
-                        <div class="item">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.<br><strong>John Doe, Graphic Designer</strong> </div>
-                        <div class="item">Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.<br><strong>John Doe, Graphic Designer</strong></div>
-                    </div>
-                </div>-->
-                <!-- Testimonials Ends -->
+               
+                <!-- Testimonials Starts --><!-- Testimonials Ends -->
                 <!-- Footer Starts -->
-                <div class="footer"><img src="images/logo.png" width="80" height="22" alt=""/> Todos os Direitos Reservados.</div>
+              <div class="footer"><img src="images/logo.png" width="80" height="22" alt=""/> Todos os Direitos Reservados.</div>
                 <!-- Footer Ends -->
             </div>
             <!-- /content -->
@@ -220,7 +187,7 @@ Nosso compromisso pode ser traduzido por liderança em tecnologia,    trabalho c
                     </ul>
                 </div>
                 <!-- Main Menu Ends -->
-                </div><!-- Main Menu Ends -->
+                </div>
             <!-- Left Panel Ends
                 ================================================== -->
             <!-- Right Panel Starts
@@ -228,17 +195,9 @@ Nosso compromisso pode ser traduzido por liderança em tecnologia,    trabalho c
             <div data-role="panel" id="right-panel" data-display="push" data-position="right" data-theme="c">
                 <!-- Phone Number -->
                 <div class="r-phone"><a href="tel:1133614843"><i class="fa fa-phone-square fa-2x"></i>&nbsp;&nbsp;Telefone: (11) 3361-4843</a></div>
-                <!-- Latest Tweets Starts -->   <div class="tweet"><a class="twitter-timeline"  href="https://twitter.com/search?q=%40Lectroinfo" data-widget-id="538386828962041856">Tweets sobre @Lectroinfo</a>
+                <!-- Latest Tweets Starts -->
+                <div class="tweet"><a class="twitter-timeline"  href="https://twitter.com/search?q=%40Lectroinfo" data-widget-id="538386828962041856">Tweets sobre @Lectroinfo</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
-          
-                <!--<div class="r-tweets">
-                    <i class="fa fa-twitter fa-2x"></i><span class="heading">TWEETS</span>
-                    <div id="tweet_container">
-                        <div class="holder">
-                            <div class="tweets"></div>
-                        </div>
-                    </div>
-                </div>-->
                 <!-- Latest Tweets Ends -->
                 <!-- Contact Info Starts -->
                 <div class="r-contact-info">
@@ -255,8 +214,8 @@ Nosso compromisso pode ser traduzido por liderança em tecnologia,    trabalho c
                 <!-- Social Icons Starts -->
                 <div class="r-social-icons">
                     <ul>
-                        <li><a href="HTTP://facebook.com/lectroinfo" target="_blank"><img src="images/icons/social-icons/fb.png" width="36" height="36"></a></li>
-                        <li><a href="http://twitter.com/lectroinfo" target="_blank"><img src="images/icons/social-icons/twitter.png" width="36" height="36"></a></li>
+                        
+                        <li><a href="HTTP://facebook.com/lectroinfo" target="_blank"><img src="images/icons/social-icons/fb.png" width="36" height="36"></a></li><a href="http://twitter.com/lectroinfo" target="_blank"><img src="images/icons/social-icons/twitter.png" width="36" height="36"></a></li>
                       <li><a href="https://www.youtube.com/channel/UCeuFf6n3wbnSvfpTDv9DNOA" target="_blank"><img src="images/icons/social-icons/youtube.png" width="36" height="36"></a></li>
                     </ul>
                 </div>
@@ -279,7 +238,8 @@ Nosso compromisso pode ser traduzido por liderança em tecnologia,    trabalho c
                         </div>
                     </div>
                     <!-- /Facebook Like Button -->
-                    <!--Google Plus Button-->
+                    <!--Google Plus Button--><!--/Google Plus Button-->
+                    <!-- Twitter Like Button -->
                     <div class="ui-block-b">
                         <!-- customized for a specific address 
                         <g:plusone href="http://lectro.com.br/" size="Medium"></g:plusone>
@@ -289,9 +249,11 @@ Nosso compromisso pode ser traduzido por liderança em tecnologia,    trabalho c
                     <!--/Google Plus Button-->
                     <!-- Twitter Like Button -->
                     <div class="ui-block-c">
-                        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://twitter.com/lectroinfo" data-text="Follow"  data-related="Lectro" data-hashtags="Lectro">Tweet</a>
+                      <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://twitter.com/lectroinfo" data-text="Follow"  data-related="Lectro" data-hashtags="Lectro">Tweet</a>
                         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="js/twitter/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                     </div>
+                    <!-- /Twitter Like Button -->
+                </div>
                     <!-- /Twitter Like Button -->
                 </div>
                 <!-- /Social Like Buttons-->
@@ -329,7 +291,7 @@ Nosso compromisso pode ser traduzido por liderança em tecnologia,    trabalho c
             		$("#tweet_container h1 em").html($("#keyword").val());
             	});
             	
-            	$(".tweets").liveTweets({operator: "#google", liveTweetsToken: "  y041v6q6utQFTFGIFzDgYt8dLOeeVJKohhliYhEkYnxyO"});
+            	$(".tweets").liveTweets({operator: "#google", liveTweetsToken: "R8l0mjc5sbfmSB1fRdKB15T19mGfI8mpnnfvWipmo"});
             });
         </script>
         <!-- Retina Display -->
