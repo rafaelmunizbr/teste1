@@ -1,8 +1,8 @@
 {
     "lib": {
         "www": {
-            "id": "com.phonegap.hello-world",
-            "version": "master",
+            "id": "com.lectro.app",
+            "version": "1.0",
             "uri": "https://github.com/phonegap/phonegap-app-hello-world/archive/master.tar.gz",
             "link": false
         }
